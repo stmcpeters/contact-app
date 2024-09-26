@@ -20,7 +20,7 @@ app.get('/', (req, res) => {
 app.get('/api/contacts', async (req, res) => {
     try {
         const { rows: contacts } = await db.query(
-            'SELECT d.contact_id, c.id, c.name, c.phone_number, c.email, d.birthday FROM details d INNER JOIN contacts c ON d.contact_id = c.id;');
+            'SELECT details.contact_id, contacts.id, contacts.name, contacts.phone_number, contacts.email, details.birthday FROM details INNER JOIN contacts ON details.contact_id = contacts.id;');
         res.send(contacts);
     } catch (e) {
         return res.status(400).json({ e });
