@@ -14,3 +14,15 @@ The Contact App is an easy-to-use web application that acts as a virtual address
 - View additional details for a contact
 - Responsive design built with React
 - Real-time data synchronization between frontend and backend
+
+## Technologies
+### Frontend
+- React: JavaScript library for building responsive user interfaces
+- React Bootstrap: Styling and layout of the app
+- Fetch API: Makes HTTP requests to the backend <br>
+### Backend
+- Express.js: A Node.js framework for setting up the server and handling HTTP requests
+- Node.js: JavaScript environment used to run the Express server
+- Cors: Middleware to handle Cross-Origin Resource Sharing
+- Dotenv: Hides sensitive environment variables
+- PostgreSQL: Database management system
