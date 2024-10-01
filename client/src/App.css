@@ -51,11 +51,17 @@ button.btn.btn-primary {
   margin-top: 25px;
 }
 
-.myicon {
-  stroke: rgb(243, 121, 7);
-  color: rgb(243, 121, 7);
+button {
+  stroke: black;
+  color: grey;
   stroke-width: 10;
   margin-right: 0.9em;
+  border-radius: 5px;
+}
+
+button:hover {
+  color: white;
+  background-color: black;
 }
 
 .form-label {
