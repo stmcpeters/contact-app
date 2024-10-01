@@ -21,7 +21,7 @@ function MyNavBar(props) {
         <Navbar.Toggle />
         <Navbar.Collapse className="justify-content-end">
           <Navbar.Text>
-            {/* Signed in as: <a href="#login">Cristina Rodriguez</a> */}
+            Signed in as: <a href="#login">User</a>
           </Navbar.Text>
         </Navbar.Collapse>
       </Container>
