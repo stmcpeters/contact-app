@@ -75,3 +75,14 @@ For this template, the name of your db should be `address-book`.
 - POST `/api/details`: Creates a new row in details table
 - DELETE `/api/contacts/:id`: Deletes a contact and details
 - PUT `/api/contacts/:id`: Updates a contact and details
+
+## Stretch Goals/Help Wanted
+- Search bar/filter contacts
+- Add photos to contact
+- Implement testing for frontend and backend components
+
+## Contributing
+Contributions are welcomed to this project! If you have an idea for a new feature or a bug fix, please open an issue or a pull request.
+
+## License
+This project is licensed under the MIT License.
