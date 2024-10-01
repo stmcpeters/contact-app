@@ -6,3 +6,11 @@ The Contact App is an easy-to-use web application that acts as a virtual address
 ## Screenshot
 ![Contact App](client/screenshot.png)
 
+## Features
+- View a list of contacts
+- Add new contact
+- Edit an existing contact
+- Delete a contact
+- View additional details for a contact
+- Responsive design built with React
+- Real-time data synchronization between frontend and backend
